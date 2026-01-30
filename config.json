@@ -1,37 +1,31 @@
 {
-    "theme_info": {
-        "title": "Electric Hues v1.0",
-        "author": "roughhewn ends",
-        "authorUrl": "https://github.com/roughhewnends",
-        "description": "A vaporwape theme design based upon Innioasis 'YourTheme' and 'Themeless' with guidance taken from mp3li's Animal Crossing Theme"
-    },
-    "themeCover": "[cover].png",
-    "themeColor": "#00ff00",
-    "themeTextColor": "#ffffff,\n\n    \u2022 Main menu wallpaper: \n        ",
-    "desktopWallpaper": "1.png",
-    "globalWallpaper": "2.png",
+    "author": "roughhewnwends",
+    "authorUrl": "github.com/roughhewnends",
+    "themeCover": "cover.png",
+    "desktopWallpaper": "bg3.png",
+    "globalWallpaper": "bg8.png",
     "desktopMask": "",
-    "fontFamily": "font(s)/Mokoto Demo.ttf",
+    "fontFamily": "branden.regular.ttf",
     "itemConfig": {
-        "itemTextColor": "#ffffff",
-        "itemSelectedTextColor": "#eeffee",
-        "itemSelectedBackground": "/behind selection/behindselection1.png",
+        "itemTextColor": "",
+        "itemSelectedTextColor": "#ffffff",
+        "itemSelectedBackground": "blue_rectangle.png",
         "itemBackground": "",
-        "itemRightArrow": "/icon on selected item/selecteditemicon.png"
+        "itemRightArrow": "selected.png"
     },
     "dialogConfig": {
-        "dialogOptionBackground": "#000000",
-        "dialogOptionTextColor": "#ff00ff",
-        "dialogOptionSelectedBackground": "#ff00ff",
-        "dialogOptionSelectedTextColor": "#000000",
-        "dialogBackgroundColor": "#00ff00",
-        "dialogTextColor": "#000008b"
+        "dialogOptionBackground": "",
+        "dialogOptionTextColor": "#FFFFFF",
+        "dialogOptionSelectedBackground": "",
+        "dialogOptionSelectedTextColor": "#ffffff",
+        "dialogBackgroundColor": "#3F4142",
+        "dialogTextColor": "#FFFFFF"
     },
     "menuConfig": {
         "menuBackgroundColor": "",
         "menuItemBackground": "",
-        "menuItemTextColor": "#ffffff",
-        "menuItemSelectedBackground": "",
+        "menuItemTextColor": "",
+        "menuItemSelectedBackground": "blue_rectangle.png",
         "menuItemSelectedTextColor": "#ffffff"
     },
     "homePageConfig": {
@@ -43,18 +37,18 @@
         "fm": "radio.png",
         "bluetooth": "bluetooth.png",
         "settings": "settings2.png",
-        "shuffleQuick": "shuffle.png",
-        "ebook": "book1",
+        "shuffleQuick": "shuffle_on.png",
+        "calendar": "calendar.png",
         "calculator": "calculator.png",
-        "calendar": "calendar.png"
+        "ebook": "ebook.png"
     },
     "fileConfig": {
         "folderIcon": "folder.png",
         "musicIcon": "musicIcon.png"
     },
     "settingConfig": {
-        "settingMask": "background(s)/lightbackground.png",
-        "shutdown": "/shutdown.png",
+        "settingMask": "",
+        "shutdown": "power.png",
         "timedShutdown_off": "countdown_off.png",
         "timedShutdown_10": "countdown_10.png",
         "timedShutdown_20": "countdown_20.png",
@@ -62,11 +56,11 @@
         "timedShutdown_60": "countdown_60.png",
         "timedShutdown_90": "countdown_90.png",
         "timedShutdown_120": "countdown_120.png",
-        "shuffleOn": "",
-        "shuffleOff": "",
-        "repeatOff": ",
-        "repeatAll": "",
-        "repeatOne": "",
+        "shuffleOn": "shuffle_on.png",
+        "shuffleOff": "shuffle_off.png",
+        "repeatOff": "repeat_off.png",
+        "repeatAll": "repeat_all.png",
+        "repeatOne": "repeat_one.png",
         "equalizer_normal": "normalEQ.png",
         "equalizer_classical": "classicalEQ.png",
         "equalizer_dance": "danceEQ.png",
@@ -77,8 +71,8 @@
         "equalizer_jazz": "jazzEQ.png",
         "equalizer_pop": "popEQ.png",
         "equalizer_rock": "rockEQ.png",
-        "keyLockOn": "unlock.png",
-        "keyLockOff": "locked.png",
+        "keyLockOn": "locked.png",
+        "keyLockOff": "unlock.png",
         "keyToneOn": "tone_on.png",
         "keyToneOff": "tone_off.png",
         "keyVibrationOn": "vibrate_on.png",
@@ -94,44 +88,42 @@
         "backlight_always": "backlight_always.png",
         "brightness": "brightness.png",
         "displayBatteryOn": "batteryDisplay_on.png",
-        "displayBatteryOff": "batteryDislpay_off.png",
+        "displayBatteryOff": "batteryDisplay_off.png",
         "dateTime": "dateTime.png",
         "language": "languages.png",
-        "launcher": "hardhat.png",
-        "factoryReset": "tools.png",
+        "launcher": "tools.png",
+        "factoryReset": "hardhat.png",
         "clearCache": "clearCache.png",
-        "theme": "theme.png",
+        "theme": "theme_alt.png",
         "fileExtensionOn": "fileExtension_on.png",
         "fileExtensionOff": "fileExtension_off.png"
     },
     "statusConfig": {
-        "playing": "",
-        "audiobookPlaying": "",
-        "pause": "",
-        "fmPlaying": "",
-        "stop": "",
-        "blConnected": "",
-        "blConnecting": "",
+        "playing": "play.png",
+        "audiobookPlaying": "audiobook_status.png",
+        "pause": "pause.png",
+        "fmPlaying": "fm_status.png",
+        "stop": "stop.png",
+        "blConnected": "bt_status.png",
+        "blConnecting": "bt_connect.png",
         "blDisconnected": "",
-        "headsetWithMic": "",
-        "headsetWithoutMic": "",
+        "headsetWithMic": "headphones.png",
+        "headsetWithoutMic": "headphones.png",
         "battery": [
             "batt_empty.png",
             "batt_f25.png",
             "batt_f50.png",
-            "batt_full"
+            "batt_full.png"
         ],
         "batteryCharging": [
             "charge_empty.png",
             "charge_f25.png",
             "charge_f50.png",
             "charge_full.png"
-        ],
-        "statusBarColor": ""
+        ]
     },
     "playerConfig": {
-        "progressTextColor": "#8a00c4",
-        "progressColor": "#ffffff",
-        "progressBackgroundColor": "#000000"
+        "progressColor": "#24F2A0",
+        "progressBackgroundColor": "#33FFFFFF"
     }
 }
