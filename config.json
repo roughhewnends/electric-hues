@@ -1,26 +1,29 @@
 {
-    "author": "roughhewnwends",
+  "theme_info": {
+    "author": "roughhewnends",
     "authorUrl": "github.com/roughhewnends",
-    "themeCover": "cover.png",
-    "desktopWallpaper": "bg3.png",
-    "globalWallpaper": "bg8.png",
-    "desktopMask": "",
-    "fontFamily": "Mokoto.ttf",
-    "itemConfig": {
-        "itemTextColor": "",
-        "itemSelectedTextColor": "#ffffff",
-        "itemSelectedBackground": "blue_rectangle.png",
-        "itemBackground": "",
-        "itemRightArrow": "selected.png"
-    },
-    "dialogConfig": {
-        "dialogOptionBackground": "",
-        "dialogOptionTextColor": "#FFFFFF",
-        "dialogOptionSelectedBackground": "",
-        "dialogOptionSelectedTextColor": "#ffffff",
-        "dialogBackgroundColor": "#3F4142",
-        "dialogTextColor": "#FFFFFF"
-    },
+    "description": "A neon vaporwave theme designed as a birthday present! Inspo + learning from looking at mp3li's themes as well as MelodyMuncher. Also huge shoutout to y1-themes.vercel.app for a place to test changes in real time.",
+    "title": "Electric Hues"
+  },
+  "themeCover": "cover.png",
+  "desktopWallpaper": "bg3.png",
+  "globalWallpaper": "bg8.png",
+  "fontFamily": "Mokoto.ttf",
+  "itemConfig": {
+    "itemTextColor": "#ccffff",
+    "itemSelectedTextColor": "#ffffff",
+    "itemSelectedBackground": "blue_rectangle.png",
+    "itemBackground": "",
+    "itemRightArrow": "selected.png"
+  },
+  "dialogConfig": {
+    "dialogOptionBackground": "#unselected_dia.png",
+    "dialogOptionTextColor": "#2f0d6e",
+    "dialogOptionSelectedBackground": "selected_dia.png",
+    "dialogOptionSelectedTextColor": "#2f0d6e",
+    "dialogBackgroundColor": "#2f0d6e",
+    "dialogTextColor": "#ffffff"
+  },
     "menuConfig": {
         "menuBackgroundColor": "",
         "menuItemBackground": "",
@@ -122,8 +125,9 @@
             "charge_full.png"
         ]
     },
-    "playerConfig": {
-        "progressColor": "#24F2A0",
-        "progressBackgroundColor": "#33FFFFFF"
+  "playerConfig": {
+    "progressColor": "#67efe5",
+    "progressBackgroundColor": "#170637"
     }
+
 }
